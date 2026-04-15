@@ -10,12 +10,12 @@ future: true
 sass:
   sass_dir: css
 
-# plugins:
-#   - jekyll-gzip
-#   - jekyll-twitter-plugin
+plugins:
+  - jekyll-gzip
+  - jekyll-twitter-plugin
 
-# gzip:
-#   replace_files: false
+gzip:
+  replace_files: false
 
 exclude:
   - "*.branches"
