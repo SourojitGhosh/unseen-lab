@@ -1,7 +1,7 @@
 name: UNSEEN Lab
 description: Science updates on evolution, epidemiology and immunology from the Bedford lab at the Fred Hutch
 url: http://sourojitghosh.github.io/unseen-lab
-baseurl: ""
+baseurl: "/unseen-lab"
 repository: "SourojitGhosh/unseen-lab"
 
 markdown: kramdown
