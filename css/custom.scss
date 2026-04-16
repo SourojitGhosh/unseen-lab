@@ -462,8 +462,22 @@ b, strong {
 }
 
 .biglogo {
-    width: 400px;      
+    width: 200px;      
     height: auto;
     margin-right: 35px !important; 
     float: left;      
+}
+
+.titlebox .bigtitle {
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 700 !important;   
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.titlebox .smallhead {
+    font-family: 'EB Garamond', serif !important;
+    font-style: italic !important; 
+    font-size: 1.4rem !important;  
+    font-weight: 400 !important;
+    text-transform: none !important;                   
 }
