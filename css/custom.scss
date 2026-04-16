@@ -412,10 +412,9 @@ blockquote {
   }
 }
 
-.member-bio-image {
-    max-width: 300px; 
-    height: auto;
-    border-radius: 8px; 
-    margin-bottom: 20px;
-    display: block;
+.member-bio-img {
+    width: 250px !important; 
+    height: auto;            
+    border-radius: 8px;      
+    margin-bottom: 15px;
 }
