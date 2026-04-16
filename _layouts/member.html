@@ -47,14 +47,14 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
-		{% if member.fediverse %}
+		{% if member.website %}
 		<div class="smallhead">
-			Fediverse
+		    Personal Website
 		</div>
 		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa-regular fa-handshake"></i>
-			<a class="off" href="https://{{ member.fediverse.server }}/{{ member.fediverse.handle }}">{{ member.fediverse.handle }}</a>
+		    <div class="smallspacer"></div>
+		    <i class="fa-solid fa-globe fa-fw"></i>
+		    <a class="off" href="{{ member.website }}">{{ member.website | remove: 'http://' | remove: 'https://' }}</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
