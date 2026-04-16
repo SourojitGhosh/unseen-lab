@@ -495,3 +495,19 @@ b, strong {
     text-transform: none !important;
     margin-top: 2px;
 }
+
+.post h1, .post h2, .post h3, .post h4, .post h5 {
+    color: $primary !important;
+    font-family: 'Oswald', sans-serif !important;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+	
+.post strong, .post b {
+    color: $primary !important;
+    font-weight: bold !important;
+}
+.post a {
+    color: $primary !important;
+    text-decoration: underline;
+}
