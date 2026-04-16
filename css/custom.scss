@@ -419,8 +419,12 @@ blockquote {
     margin-bottom: 15px;
 }
 
-* {
+*:not(i):not([class*="fa-"]) {
     font-family: 'EB Garamond', serif !important;
+}
+
+.fa, .fas, .far, .fab, .fa-solid, .fa-brands, [class^="fa-"], [class*=" fa-"] {
+    font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free", "FontAwesome" !important;
 }
 
 body, p, li, td, span, div, .note, .smallnote, .post, .media-body {
