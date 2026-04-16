@@ -87,6 +87,7 @@ h6 {
 // also modify Bootstrap source in _reboot.scss
 b, strong {
   font-weight: bold;
+  color: $primary;	
 }
 
 /* logo */
@@ -111,16 +112,18 @@ b, strong {
 /* navbar */
 
 .navbar-brand {
-	font-size: 30px;
-	font-weight: 100;
-  color: $gray-light;
-	/* Museo */
+  font-family: $font-primary; 
+  font-size: 30px;
+  font-weight: 100;
+  color: #ffffff; 
 }
+
 .navbar-nav {
 	font-size: 30px;
 	font-weight: 100;
 	/* Museo */
 }
+
 .navbar-text {
 	font-size: 15px;
 	font-weight: 300;
@@ -128,26 +131,26 @@ b, strong {
 }
 
 .bg-navbar {
-  background: #f8f8f8;
-  border-bottom: 1px solid #e7e7e7;
+  background: $primary;
+  border-bottom: 1px solid darken($primary, 10%); 
 }
 
 .nav-brand a {
-  color: $gray;
+  color: #ffffff;
 }
 
 .nav-brand a:hover {
-  color: $primary;
+  color: #e2e2e2; 
   text-decoration: none;
 }
 
-.nav-link a {
-  color: $gray;
+..nav-link a {
+  color: #ffffff;
 }
 
 .nav-link a:hover {
-  color: $primary;
-  text-decoration: none;
+  color: #e2e2e2;
+  // text-decoration: underline; 
 }
 
 .navbar-toggler {
