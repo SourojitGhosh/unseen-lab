@@ -7,9 +7,9 @@ categories:
 
 <div class="row">
 	<div class="col-lg-12">
-		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
+		<object class="pull-left biglogo" data="{{ site.baseurl }}/images/logo.svg" type="image/svg+xml"></object>
 		<div class="bigtitle logobox">
-			bedford lab research
+			UNSEEN Lab
 		</div>
 	</div>
 </div>
@@ -39,7 +39,7 @@ categories:
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
-			<a class="off" href="/blog/">Recent posts</a>
+			<a class="off" href="{{ site.baseurl }}/blog/">Recent posts</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
@@ -58,7 +58,7 @@ categories:
 		<div class="pad-left">
 			<div class="note">
 				<i class="fa-regular fa-comment fa-fw"></i>
-				<a class="off" href="{{ post.url }}">
+				<a class="off" href="{{ site.baseurl }}{{ post.url }}">
 				{{ post.title }}
 				</a>
 			</div>
@@ -70,7 +70,7 @@ categories:
         by <a class="off" href="
           {% for member in site.categories.team %}
             {% if member.title == post.author %}
-              {{ member.url }}
+              {{ site.baseurl }}{{ member.url }}
             {% endif %}
           {% endfor %}
         ">
@@ -82,7 +82,7 @@ categories:
         <a class="off" href="
           {% for member in site.categories.team %}
             {% if member.title == post.authors.first %}
-              {{ member.url }}
+              {{ site.baseurl }}{{ member.url }}
             {% endif %}
           {% endfor %}
         ">
@@ -92,7 +92,7 @@ categories:
         <a class="off" href="
           {% for member in site.categories.team %}
             {% if member.title == post.authors.last %}
-              {{ member.url }}
+              {{ site.baseurl }}{{ member.url }}
             {% endif %}
           {% endfor %}
         ">
@@ -111,7 +111,7 @@ categories:
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
-			<a class="off" href="/papers/">Recent papers</a>
+			<a class="off" href="{{ site.baseurl }}/papers/">Recent papers</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
@@ -123,7 +123,7 @@ categories:
 		<div class="pad-left">
 			<div class="note">
 				<i class="fa-regular fa-file-text fa-fw"></i>
-				<a class="off" href="{{ paper.url }}">
+				<a class="off" href="{{ site.baseurl }}{{ paper.url }}">
 				{{ paper.title }}
 				</a>
 			</div>
@@ -143,7 +143,7 @@ categories:
 <div class="row">
 	<div class="col-lg-12">
 		<div class="head">
-			<a class="off" href="/projects/">Active projects</a>
+			<a class="off" href="{{ site.baseurl }}/projects/">Active projects</a>
 		</div>
 		<div class="spacer"></div>
 	</div>
@@ -155,18 +155,18 @@ categories:
 		<div class="pad-left">
 			<div class="note">
 				<i class="fa-regular fa-edit fa-fw"></i>
-				<a class="off" href="{{ project.url }}">
+				<a class="off" href="{{ site.baseurl }}{{ project.url }}">
 				{{ project.title }} - {{ project.description }}
 				</a>
 			</div>
 			<div class="smallspacer"></div>
 			<div class="smallnote">
 				Updated
-				<a class="off" href="{{ project.commits.first.url }}">
+				<a class="off" href="{{ site.baseurl }}{{ project.commits.first.url }}">
 				{{ project.commits.first.date | date: "%-d %b %Y" }}
 				</a>
 				by
-				<a class="off" href="{{ project.commits.first.author_url }}">
+				<a class="off" href="{{ site.baseurl }}{{ project.commits.first.author_url }}">
 				{{ project.commits.first.author_login }}
 				</a>
 			</div>
@@ -193,11 +193,11 @@ categories:
 			<ul class="list-inline">
 				{% for page in site.categories.misc %}
 				<li class="footernav list-inline-item">
-					<i class="fa-solid fa-angle-right"></i> <a class="off" href="{{ page.url }}">{{ page.title }}</a>
+					<i class="fa-solid fa-angle-right"></i> <a class="off" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
 				</li>
 				{% endfor %}
 				<li class="footernav list-inline-item">
-					<i class="fa-solid fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
+					<i class="fa-solid fa-angle-right"></i> <a class="off" href="{{ site.baseurl }}{{ site.baseurl }}/talks/">Talks</a>
 				</li>
 			</ul>
 		</div>
@@ -208,15 +208,10 @@ categories:
 <div class="row">
   <div class="col-lg-12">
     <div class="float-lg-right" style="vertical-align: bottom; display: table-cell;">
-      <a class="off" href="https://www.fredhutch.org/">
-        <img width=185 src="/images/logos/logo_fred_hutch_horizontal_grayscale.png">
-      </a>
-      &nbsp; &nbsp; &nbsp; &nbsp;
-      <a class="off" href="https://www.hhmi.org/">
-        <img width=68 src="/images/logos/logo_hhmi_grayscale.png">
+      <a class="off" href="https://sils.unc.edu/">
+        <img width=185 src="https://sils.unc.edu/wp-content/uploads/sites/1369/2026/01/SILS_Signature_CarolinaBlue_White_rgb_h.png">
       </a>
     </div>
   </div>
 </div>
 
-<a style="display:none;" rel="me" href="https://mstdn.science/@trvrb">Hidden Mastodon Link for Verification</a>
