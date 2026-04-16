@@ -57,12 +57,12 @@
 						{% endif %}
 						<a class="mx-1" href="{{ site.baseurl }}/papers/">Papers</a>
 						</li> -->
-						<!-- {% if page.categories.first == 'projects' %}
+						{% if page.categories.first == 'join' %}
 						<li class="nav-link active">
 						{% else %}
 						<li class="nav-link">
 						{% endif %}
-						<a class="mx-1" href="{{ site.baseurl }}/projects/">projects</a></li> -->
+						<a class="mx-1" href="{{ site.baseurl }}/projects/">Join Us</a></li>
 						{% if page.categories.first == 'team' %}
 						<li class="nav-link active">
 						{% else %}
@@ -70,8 +70,12 @@
 						{% endif %}
 						<a class="mx-1" href="{{ site.baseurl }}/team/">Team</a>
 						</li>
-						<li class="nav-item {% if page.url contains '/join/' %}active{% endif %}">
-						<a class="nav-link" href="{{ site.baseurl }}/join/">Join Us</a>
+						{% if page.categories.first == 'join' %}
+						<li class="nav-link active">
+						{% else %}
+						<li class="nav-link">
+						{% endif %}
+						<a class="mx-1" href="{{ site.baseurl }}/join/">Join Us</a>
 						</li>
 					</ul>
 				</div>
