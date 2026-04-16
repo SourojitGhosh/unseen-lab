@@ -427,20 +427,23 @@ blockquote {
     font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free", "FontAwesome" !important;
 }
 
-body, p, li, td, span, div, .note, .smallnote, .post, .media-body {
-    font-size: 1.2rem !important;
-    line-height: 1.6 !important;
-    color: #222 !important;
-}
-
 h1, h2, h3, h4, h5, h6, 
-.bigtitle, .title, .bighead, .head, .smallhead, 
-.navbar-brand, .nav-link, .media-body .head,
-.navbar-nav .nav-link {
+.bigtitle, .title, .bighead, 
+.navbar-brand, .nav-link, .navbar-nav .nav-link {
     font-family: 'Oswald', sans-serif !important;
     text-transform: uppercase !important;
     letter-spacing: 0.8px !important;
     font-weight: 500 !important;
+}
+
+body, p, li, td, span, div, 
+.note, .smallnote, .post, .post p, .post li,
+.media-body, .smallhead, .head, .media-body .head a {
+    font-family: 'EB Garamond', serif !important;
+    font-size: 1.2rem !important;
+    line-height: 1.6 !important;
+    color: #222 !important;
+    text-transform: none !important; 
 }
 
 b, strong {
