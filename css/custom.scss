@@ -411,3 +411,11 @@ blockquote {
     opacity: 0;
   }
 }
+
+.member-bio-image {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    display: block;
+}
