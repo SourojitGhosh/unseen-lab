@@ -2,6 +2,8 @@
 layout: default
 title: Join Us
 permalink: /join/
+categories:
+  - join
 ---
 
 ### Interested in joining the UNSEEN Lab?
