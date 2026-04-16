@@ -3,7 +3,7 @@ layout: member
 title: Sourojit Ghosh
 position: Principal investigator
 scholar: fNxrh48AAAAJ
-image: https://sourojitghosh.github.io/images/headshot.png
+image: images/team/headshot.jpg
 email: ghosh100@uw.edu
 ---
 
