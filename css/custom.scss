@@ -527,24 +527,32 @@ body .memberbox .head a {
     text-decoration: underline;
 }
 
-body .post h1, 
-body .post h2, 
-body .post h3, 
-body .post h4, 
-body .post h5 {
-    color: $primary !important;
-    font-family: 'Oswald', sans-serif !important;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+body .container .titlebox .bigtitle {
+    color: #4B9CD3 !important; 
+    font-weight: 700 !important;
 }
 
-body .post strong, 
-body .post b {
-    color: $primary !important;
-    font-weight: bold !important;
+body .post {
+    h1, h2, h3, h4, h5,
+    strong, b {
+        color: #4B9CD3 !important;
+    }
+    
+    p, li {
+        color: #222 !important;
+    }
 }
 
-body .post a {
-    color: $primary !important;
-    text-decoration: underline;
+.navbar-nav .nav-link.active,
+.nav-pills .nav-link.active {
+    background-color: #13294B !important;
+    color: #ffffff !important; 
+    border-radius: 4px;        
+}
+.navbar-nav .nav-link.active:hover {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:not(.active) {
+    color: #222 !important; 
 }
