@@ -482,6 +482,14 @@ b, strong {
     text-transform: none !important;                   
 }
 
+body .titlebox .bigtitle {
+    color: $primary !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
 .memberbox .head a {
     font-family: 'Oswald', sans-serif !important;
     font-weight: 700 !important;
@@ -496,6 +504,13 @@ b, strong {
     margin-top: 2px;
 }
 
+body .memberbox .head a {
+    color: $primary !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+
 .post h1, .post h2, .post h3, .post h4, .post h5 {
     color: $primary !important;
     font-family: 'Oswald', sans-serif !important;
@@ -508,6 +523,28 @@ b, strong {
     font-weight: bold !important;
 }
 .post a {
+    color: $primary !important;
+    text-decoration: underline;
+}
+
+body .post h1, 
+body .post h2, 
+body .post h3, 
+body .post h4, 
+body .post h5 {
+    color: $primary !important;
+    font-family: 'Oswald', sans-serif !important;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+body .post strong, 
+body .post b {
+    color: $primary !important;
+    font-weight: bold !important;
+}
+
+body .post a {
     color: $primary !important;
     text-decoration: underline;
 }
