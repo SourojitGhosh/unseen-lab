@@ -450,7 +450,7 @@ b, strong {
     font-weight: 700 !important;   
     font-size: 3.5rem !important;  
     line-height: 1.2;
-    padding-top: 30px;             
+    padding-top: 50px;             
     display: inline-block;
     letter-spacing: 2px !important;
 	margin-left: 10px;
@@ -528,12 +528,11 @@ body .container .titlebox .bigtitle {
 }
 
 body .container .post {
-    h1, h2, h3, h4, h5, strong, b {
+    h1, h2, h3, h4, h5,
+    p strong, p b, 
+    li strong, li b,
+    strong, b {
         color: #4B9CD3 !important;
-    }
-
-    p, li {
-        color: #222 !important;
     }
 }
 
