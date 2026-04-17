@@ -6,7 +6,7 @@ categories:
   - join
 ---
 
-<div class="post">
+<div class="post" markdown = "1">
 
 ### Interested in joining the UNSEEN Lab?
 
