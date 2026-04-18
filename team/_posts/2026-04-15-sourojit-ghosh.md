@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sourojit Ghosh
-position: Principal investigator
+position: Principal Investigator
 scholar: fNxrh48AAAAJ
 image: /images/team/headshot.jpg
 website: https://sourojitghosh.github.io/
