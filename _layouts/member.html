@@ -47,13 +47,10 @@ layout: default
 		<div class="bigspacer"></div>
 		{% endif %}
 		{% if member.website %}
-		<div class="smallhead">
-		    Personal Website
-		</div>
 		<div class="pad-left note">
 		    <div class="smallspacer"></div>
 		    <i class="fa-solid fa-globe fa-fw"></i>
-		    <a class="off" href="{{ member.website }}">{{ member.website | remove: 'http://' | remove: 'https://' }}</a>
+		    <a class="off" href="{{ member.website }}" style="font-style: italic !important;">{{ member.website | remove: 'http://' | remove: 'https://' }}</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
@@ -69,13 +66,10 @@ layout: default
 		<div class="bigspacer"></div>
 		{% endif %}
 		{% if member.scholar %}
-		<div class="smallhead">
-			Google Scholar
-		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa-brands fa-google-scholar fa-fw"></i>
-			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}">{{ member.title }}</a>
+			<a class="off" href="http://scholar.google.com/citations?user={{ member.scholar }}" style="font-style: italic !important;>{{ member.title }}</a>
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
@@ -101,28 +95,14 @@ layout: default
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
-		{% if member.website %}
-		<div class="smallhead">
-			Website
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa-solid fa-globe fa-fw"></i>
-			<a class="off" href="{{ member.website }}">{{ member.website | remove: 'http://' | remove: 'https://' | replace: "/", "/<wbr>" | replace: "_", "_<wbr>" }}</a>
-		</div>
-		<div class="bigspacer"></div>
-		{% endif %}
 		{% if member.email %}
-		{% assign emailarray = member.email | split: '@' %}
-		<div class="smallhead">
-			Email
-		</div>
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa-regular fa-envelope fa-fw"></i>
-			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
-		</div>
-		<div class="bigspacer"></div>
+	    {% assign emailarray = member.email | split: '@' %}
+	    <div class="pad-left note">
+	        <div class="smallspacer"></div>
+	        <i class="fa-regular fa-envelope fa-fw"></i>
+	        <span style="font-style: italic !important;">{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}</span>
+	    </div>
+	    <div class="bigspacer"></div>
 		{% endif %}
 	</div>
 	<div class="col-lg-8">
