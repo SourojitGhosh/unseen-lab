@@ -5,7 +5,7 @@ position: Principal Investigator
 scholar: fNxrh48AAAAJ
 image: /images/team/sourojit_ghosh.jpg
 website: https://sourojitghosh.github.io/
-email: ghosh100@uw.edu
+email: ghosh100@unc.edu
 ---
 
 Sourojit Ghosh is the Founder and Principal Investigator of the UNSEEN Lab. His research investigates how Generative Artificial Intelligence tools cause harm -- both through their outputs and underlying infrastructures -- upon historically marginalized populations, specifically those with identities typically overlooked in AI-fairness scholarship. 
