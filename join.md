@@ -32,11 +32,13 @@ I am looking for 1-2 PhD students in the Fall 2027 cycle. Successful candidates 
 <p>
   Working with undergraduate and Master's student reseaarchers has been an important part of my research experience, and I look forward to continuining to do so. There are a few different pathways to joining the UNSEEN Lab as an undergraduate or Master's student researcher.
 </p>
+
 <p>
   <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222222 !important;">Independent Study: </b> I am able to support a limited number of undergraduate and Master's students in Independent Study. I require Independent Study students to register for up to 3 credits in 2 consecutive semesters, without exception. If you are interested, and have a research question in mind along the aforementioned areas, please send me an email with the subject line "[Prospective Independent Study]: \< your name \>". In the email, please include a brief description of your research interests, and your CV. I will not be able to review Independent Study requests for a given semester any later than Week 7 of the previous semester. Independent Study is compensated through research credit (INLS 396/696), and does not include stipends.     
-
-  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222222 !important;">Volunteering: </b> I am able to support a limited number of volunteering student researchers, depending on project availability and capacity at the start of each semester. 
- 
 </p>
+
+<p>
+  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222222 !important;">Other Opportunities: </b> I am able to support a limited number of unpaid student researchers, depending on project availability and capacity at the start of each semester. I require students to commit to 7-10 hours of research time per week throughout the semester, in addition to attending group meetings. Students are accepted for one semester at a time, and the option to continue with the group is explored at the end of each semester. Specific opportunities for each semester will be posted here, please check back! 
+ </p>
 
 </div>
