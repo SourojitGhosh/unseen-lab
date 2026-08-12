@@ -13,7 +13,7 @@ categories:
 </h3>
 
 <p style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222;">
-    We are always looking for motivated researchers and students! Read on for how you can work with us!
+    We are always looking for motivated researchers and students! Read on to learn how you can work with us and apply. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
 </p>
 
 <h1 style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Postdoctoral Students</h1>
@@ -34,15 +34,15 @@ For the Fall 2027 cycle, I am most interested in students with previous research
 </p>
 
 <p>
-  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Independent Study: </b> I can support a limited number of undergraduate and Master's students in Independent Study. I require Independent Study students to register for up to 3 credits in 2 consecutive semesters, without exception. If you are interested, and have a research question in the aforementioned areas, please send me an email with the subject line "[Prospective Independent Study]: \< your name \>". Please include a brief description of your research interests and your CV. I will not be able to review Independent Study requests for a given semester any later than Week 7 of the previous semester. Independent Study is compensated through research credit (INLS 396/696), and does not include stipends.     
+  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Independent Study: </b> I can support a limited number of undergraduate and Master's students in Independent Study. I require Independent Study students to register for up to 3 credits in 2 consecutive semesters, without exception. If you are interested and have a research question in the aforementioned areas, please send me an email with the subject line "[Prospective Independent Study]: \< your name \>". Please include a brief description of your research interests and your CV. I will not be able to review Independent Study requests for a given semester any later than Week 7 of the previous semester. Independent Study is compensated through research credit (INLS 396/696), and does not include stipends.     
 </p>
 
 <p>
-  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Other Opportunities: </b> I can support a limited number of unpaid student researchers, depending on project availability and capacity at the start of each semester. I require students to commit to 7-10 hours of research time per week throughout the semester, in addition to attending group meetings. Students are accepted for one semester at a time, and the option to continue with the group is explored at the end of each semester. Specific opportunities for each semester will be posted here, please check back! 
+  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Other Opportunities: </b> I can support a limited number of unpaid student researchers, depending on project availability and capacity at the start of each semester. I require students to commit to 7-10 hours of research time per week throughout the semester, in addition to attending group meetings. Students are accepted for one semester at a time, and the option to continue with the group is explored at the end of each semester. Specific opportunities for each semester will be posted here; please check back! I will prioritize SDIS/ILS students, but feel free to reach out even if you are in a different School! 
  </p>
 
 <p>
-  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Non-UNC Students: </b> I do not accept non-UNC students into the lab, except through university-specific channels, such as REUs. If you are interested in pursuing one-off research projects with me as a non-UNC student, please reach out with the email subject line "[Research Collaboration: non-UNC student]: \<your name \>" and describe your research idea, and why you are interested in working with me on this. Please note that I will very likely be slow to respond, if at all I can respond, as I will be highly selective in this aspect.  
+  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Non-UNC Students: </b> I am not currently accepting non-UNC students into the lab, except through university-specific channels, such as REUs. If you are interested in pursuing one-off research projects with me as a non-UNC student, please reach out with the email subject line "[Research Collaboration: non-UNC student]: \<your name \>" and describe your research idea and why you are interested in working with me on this. Please note that I will likely be slow to respond, if at all, as I will be highly selective in this regard.  
 </p>
 
 </div>
