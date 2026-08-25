@@ -45,10 +45,10 @@ For the Fall 2027 cycle, I am most interested in students with previous research
   <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Non-UNC Students: </b> I am not currently accepting non-UNC students into the lab, except through university-specific channels, such as REUs. If you are interested in pursuing one-off research projects with me as a non-UNC student, please reach out with the email subject line "[Research Collaboration: non-UNC student]: your name" and describe your research idea and why you are interested in working with me on this. Please note that I will likely be slow to respond, if at all, as I will be highly selective in this regard.  
 </p>
 
-<h2 id = "active" style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Currently Active Postings</h2>
+<h1 id = "active" style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Currently Active Postings</h1>
 
 <p>
-  I am looking for up to 5 undergraduate researchers, in junior standing or above, interested in studying the impact of AI systems upon historically marginalized populations. The study will involve qualitative research methods, and students are required to have experience designing/conducting/analyzing interviews, even if only in the context of classes they have taken. Students will be expected to commit about 5 hours a week, on average and outside of group meetings, between the time of onboarding and the end of the academic year 
+  I am looking for up to 5 undergraduate researchers, in junior standing or above, interested in studying the impact of AI systems upon historically marginalized populations. The study will involve qualitative research methods, and students are required to have experience designing, conducting, and analyzing interviews, even if only in the context of classes they have taken. Students will be expected to commit about 5 hours a week, on average and outside of group meetings, between the time of onboarding and the end of the academic year. 
   
   To apply, please email me with the subject line "[Responding to Active Posting]: your name" to indicate your interest. Attach your CV/transcript, highlighting where you have the required experience, and briefly mention why you are interested in this work. Applications close on September 18, 2026. 
 </p>
