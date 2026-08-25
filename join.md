@@ -13,7 +13,7 @@ categories:
 </h3>
 
 <p style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222;">
-    We are always looking for motivated researchers and students! Read on to learn how you can work with us and apply. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
+    We are always looking for motivated researchers and students! Read on to learn how you can work with us, especially the <a href="#active">Currently Active Postings</a>, and apply. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
 </p>
 
 <h1 style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Postdoctoral Students</h1>
@@ -23,7 +23,7 @@ categories:
 
 <h1 style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">PhD Students</h1>
 <p>
-I am looking for 1-2 PhD students in the Fall 2027 cycle. Successful candidates will have a strong interest in studying the impact of emergent Generative Artificial Intelligence systems upon historically marginalized populations, with a specific focus on populations often overlooked in traditional AI fairness research. Prior research experience is strongly preferred for candidates in this cycle. If you are interested and wish to get in touch, please send me an email with the subject line "[Prospective PhD]: \< your name \>" and attach your CV! Please note that I might not be able to respond to each email, and do not email me multiple times! Prior contact does not guarantee acceptance; each application is reviewed holistically by the entire departmental faculty.
+I am looking for 1-2 PhD students in the Fall 2027 cycle. Successful candidates will have a strong interest in studying the impact of emergent Generative Artificial Intelligence systems upon historically marginalized populations, with a specific focus on populations often overlooked in traditional AI fairness research. Prior research experience is strongly preferred for candidates in this cycle. If you are interested and wish to get in touch, please send me an email with the subject line "[Prospective PhD]: your name" and attach your CV! Please note that I might not be able to respond to each email, and do not email me multiple times! Prior contact does not guarantee acceptance; each application is reviewed holistically by the entire departmental faculty.
 </p>
 
 For the Fall 2027 cycle, I am most interested in students with previous research experience in and plans to pursue research in the following areas: <b>1)</b> Environmental Impact of AI Development upon Traditionally Overlooked Marginalized Communities; <b>2)</b> Developing AI detection and curricula for low AI literacy populations; and <b>3)</b> AI for Social Good for Traditionally Overlooked Marginalized Communities.
@@ -34,7 +34,7 @@ For the Fall 2027 cycle, I am most interested in students with previous research
 </p>
 
 <p>
-  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Independent Study: </b> I can support a limited number of undergraduate and Master's students in Independent Study. I require Independent Study students to register for up to 3 credits in 2 consecutive semesters, without exception. If you are interested and have a research question in the aforementioned areas, please send me an email with the subject line "[Prospective Independent Study]: \< your name \>". Please include a brief description of your research interests and your CV. I will not be able to review Independent Study requests for a given semester any later than Week 7 of the previous semester. Independent Study is compensated through research credit (INLS 396/696), and does not include stipends.     
+  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Independent Study: </b> I can support a limited number of undergraduate and Master's students in Independent Study. I require Independent Study students to register for up to 3 credits in 2 consecutive semesters, without exception. If you are interested and have a research question in the aforementioned areas, please send me an email with the subject line "[Prospective Independent Study]: your name". Please include a brief description of your research interests and your CV. I will not be able to review Independent Study requests for a given semester any later than Week 7 of the previous semester. Independent Study is compensated through research credit (INLS 396/696), and does not include stipends.     
 </p>
 
 <p>
@@ -42,7 +42,16 @@ For the Fall 2027 cycle, I am most interested in students with previous research
  </p>
 
 <p>
-  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Non-UNC Students: </b> I am not currently accepting non-UNC students into the lab, except through university-specific channels, such as REUs. If you are interested in pursuing one-off research projects with me as a non-UNC student, please reach out with the email subject line "[Research Collaboration: non-UNC student]: \<your name \>" and describe your research idea and why you are interested in working with me on this. Please note that I will likely be slow to respond, if at all, as I will be highly selective in this regard.  
+  <b style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #4B9CD3 !important;">Non-UNC Students: </b> I am not currently accepting non-UNC students into the lab, except through university-specific channels, such as REUs. If you are interested in pursuing one-off research projects with me as a non-UNC student, please reach out with the email subject line "[Research Collaboration: non-UNC student]: your name" and describe your research idea and why you are interested in working with me on this. Please note that I will likely be slow to respond, if at all, as I will be highly selective in this regard.  
 </p>
+
+<h2 id = "active" style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Currently Active Postings</h2>
+
+<p>
+  I am looking for up to 5 undergraduate researchers, in junior standing or above, interested in studying the impact of AI systems upon historically marginalized populations. The study will involve qualitative research methods, and students are required to have experience designing/conducting/analyzing interviews, even if only in the context of classes they have taken. Students will be expected to commit about 5 hours a week, on average and outside of group meetings, between the time of onboarding and the end of the academic year 
+  
+  To apply, please email me with the subject line "[Responding to Active Posting]: your name" to indicate your interest. Attach your CV/transcript, highlighting where you have the required experience, and briefly mention why you are interested in this work. Applications close on September 18, 2026. 
+</p>
+
 
 </div>
