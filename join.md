@@ -13,7 +13,7 @@ categories:
 </h3>
 
 <p style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222;">
-    We are always looking for motivated researchers and students! Read on to learn how you can work with us, especially the <a href="#active">Currently Active Postings</a>, and apply. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
+    We are always looking for motivated researchers and students! Read on to learn how you can work with us, especially the <a href="#active">Currently Active Postings</a>, and apply. A list of previously active postings can be found in the <a href = "archive">Archive</a>, which might give you an idea of what sort of opportunities I normally post. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
 </p>
 
 <h1 style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Postdoctoral Students</h1>
@@ -48,10 +48,29 @@ For the Fall 2027 cycle, I am most interested in students with previous research
 <h1 id = "active" style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Currently Active Postings</h1>
 
 <p>
-  I am looking for up to 5 undergraduate researchers, in junior standing or above, interested in studying the impact of AI systems upon historically marginalized populations. The study will involve qualitative research methods, and students are required to have experience designing, conducting, and analyzing interviews, even if only in the context of classes they have taken. Students will be expected to commit about 5 hours a week, on average and outside of group meetings, between the time of onboarding and the end of the academic year. 
-  
-  To apply, please email me with the subject line "[Responding to Active Posting]: your name" to indicate your interest. Attach your CV/transcript, highlighting where you have the required experience, and briefly mention why you are interested in this work. Applications close on September 18, 2026. 
+Nothing right now! Please continue to watch this space for future postings! 
 </p>
 
 
+</div>
+
+<div class="row" style="margin-top: 50px;">
+    <div class="col-lg-12">
+        <details style="cursor: pointer; background: #f8f9fa; padding: 15px 20px; border-radius: 5px; border: 1px solid #e9ecef;">
+            <summary id = "archive" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; color: #13294B !important; font-size: 1.1rem !important;">
+                📁 View Archived Recruitment Calls
+            </summary>
+            <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #dee2e6;">
+                <div style="margin-bottom: 25px;">
+                    <h4 style="font-family: 'Oswald', sans-serif !important; color: #4B9CD3 !important; font-size: 1.1rem !important; font-weight: 700 !important; margin-bottom: 5px;">
+                        Undergraduate Researchers (Fall 2026)
+                    </h4>
+                    <span style="font-size: 0.85rem; color: #777; font-style: italic;">Status: Closed<br> Deadline: 18 September 2026</span>
+                    <div style="font-family: 'Montserrat', sans-serif !important; font-size: 0.9rem !important; line-height: 1.5 !important; color: #333 !important; margin-top: 8px;">
+                        I am looking for up to 5 undergraduate researchers, in junior standing or above, interested in studying the impact of AI systems upon historically marginalized populations. The study will involve qualitative research methods, and students are required to have experience designing, conducting, and analyzing interviews, even if only in the context of classes they have taken. Students will be expected to commit about 5 hours a week, on average and outside of group meetings, between the time of onboarding and the end of the academic year. 
+                    </div>
+                </div>
+            </div>
+        </details>
+    </div>
 </div>
