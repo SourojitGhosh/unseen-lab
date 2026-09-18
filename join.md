@@ -13,7 +13,7 @@ categories:
 </h3>
 
 <p style="font-family: 'Oswald', sans-serif; line-height: 1.6; color: #222;">
-    We are always looking for motivated researchers and students! Read on to learn how you can work with us, especially the <a href="#active">Currently Active Postings</a>, and apply. A list of previously active postings can be found in the <a href = "archive">Archive</a>, which might give you an idea of what sort of opportunities I normally post. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
+    We are always looking for motivated researchers and students! Read on to learn how you can work with us, especially the <a href="#active">Currently Active Postings</a>, and apply. A list of previously active postings can be found in the <a href = "#archive">Archive</a>, which might give you an idea of what sort of opportunities I normally post. Please do not schedule meetings on my Calendar without us first corresponding, and I will likely cancel meetings that have been set up without invitation. 
 </p>
 
 <h1 style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Postdoctoral Students</h1>
