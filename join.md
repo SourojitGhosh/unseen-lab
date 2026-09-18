@@ -56,8 +56,8 @@ Nothing right now! Please continue to watch this space for future postings!
 
 <div class="row" style="margin-top: 50px;">
     <div class="col-lg-12">
-        <details style="cursor: pointer; background: #f8f9fa; padding: 15px 20px; border-radius: 5px; border: 1px solid #e9ecef;">
-            <summary id = "archive" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; color: #13294B !important; font-size: 1.1rem !important;">
+        <details id = "archive" style="cursor: pointer; background: #f8f9fa; padding: 15px 20px; border-radius: 5px; border: 1px solid #e9ecef;">
+            <summary style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; color: #13294B !important; font-size: 1.1rem !important;">
                 📁 View Archived Recruitment Calls
             </summary>
             <div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #dee2e6;">
