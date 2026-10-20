@@ -2,7 +2,7 @@
 layout: member
 title: Shivani Handa
 position: Undergraduate Researcher
-image:
+image: /images/team/shivani_handa_lab_picture.jpeg
 email: shanda2@unc.edu
 ---
 
