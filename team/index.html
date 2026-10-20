@@ -17,8 +17,8 @@ categories:
 
 {% assign pi_members = site.categories.team | where: "position", "Principal Investigator" %}
 {% assign phd_members = site.categories.team | where: "position", "PhD Student" %}
-{% assign ms_members = site.categories.team | where: "position", "Master's Student" %}
-{% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Researcher" %}
+{% assign ms_members = site.categories.team | where: "position", "Master's Students" %}
+{% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Students" %}
 
 {% assign active_pi = pi_members | where_exp: "item", "item.alumni != true" %}
 {% if active_pi.size > 0 %}
@@ -35,9 +35,6 @@ categories:
 						</a>
 						<div class="media-body">
 							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-								{{ member.position }}
-							</p>
 						</div>
 					</div>
 					<div class="bigspacer"></div>
@@ -48,7 +45,6 @@ categories:
 	</div>
 {% endif %}
 
-{% comment %} --- PhD Students --- {% endcomment %}
 {% assign active_phd = phd_members | where_exp: "item", "item.alumni != true" %}
 {% if active_phd.size > 0 %}
 	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
@@ -64,9 +60,6 @@ categories:
 						</a>
 						<div class="media-body">
 							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-								{{ member.position }}
-							</p>
 						</div>
 					</div>
 					<div class="bigspacer"></div>
@@ -77,7 +70,6 @@ categories:
 	</div>
 {% endif %}
 
-{% comment %} --- Master's Students --- {% endcomment %}
 {% assign active_ms = ms_members | where_exp: "item", "item.alumni != true" %}
 {% if active_ms.size > 0 %}
 	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
@@ -93,9 +85,6 @@ categories:
 						</a>
 						<div class="media-body">
 							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-								{{ member.position }}
-							</p>
 						</div>
 					</div>
 					<div class="bigspacer"></div>
@@ -106,7 +95,7 @@ categories:
 	</div>
 {% endif %}
 
-{% comment %} --- Undergraduate Researchers --- {% endcomment %}
+{% comment %} --- Undergraduate Students --- {% endcomment %}
 {% assign active_undergrad = undergrad_members | where_exp: "item", "item.alumni != true" %}
 {% if active_undergrad.size > 0 %}
 	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
@@ -122,9 +111,6 @@ categories:
 						</a>
 						<div class="media-body">
 							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-								{{ member.position }}
-							</p>
 						</div>
 					</div>
 					<div class="bigspacer"></div>
