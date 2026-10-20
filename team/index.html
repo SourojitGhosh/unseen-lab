@@ -1,110 +1,168 @@
-{% comment %} 1. Explicitly filter active members by position into distinct groups {% endcomment %}
-{% assign active_team = site.categories.team | where_exp: "item", "item.alumni != true" %}
-{% assign pi_members = active_team | where: "position", "Principal Investigator" %}
-{% assign phd_members = active_team | where: "position", "PhD Student" %}
-{% assign ms_members = active_team | where: "position", "Master's Student" %}
-{% assign undergrad_members = active_team | where: "position", "Undergraduate Researcher" %}
+---
+layout: default
+title: Team
+categories:
+ - team
+---
 
-{% comment %} --- Principal Investigator --- {% endcomment %}
-{% if pi_members.size > 0 %}
-  <h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-    Principal Investigator
-  </h3>
-  <div class="row">
-    {% for member in pi_members reversed %}
-      <div class="col-lg-4 memberbox">
-        <div class="media">
-          <a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
-            <img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
-          </a>
-          <div class="media-body">
-            <div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-              {{ member.position }}
-            </p>
-          </div>
-        </div>
-        <div class="bigspacer"></div>
-        <div class="bigspacer"></div>
-      </div>
-    {% endfor %}
-  </div>
+<div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Members
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% assign pi_members = site.categories.team | where: "position", "Principal Investigator" %}
+{% assign phd_members = site.categories.team | where: "position", "PhD Student" %}
+{% assign ms_members = site.categories.team | where: "position", "Master's Student" %}
+{% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Researcher" %}
+
+{% assign active_pi = pi_members | where_exp: "item", "item.alumni != true" %}
+{% if active_pi.size > 0 %}
+	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 20px !important; margin-bottom: 25px !important;">
+		Principal Investigator
+	</h3>
+	<div class="row">
+		{% for member in pi_members reversed %}
+			{% if member.alumni != true %}
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
+						</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
+							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
+								{{ member.position }}
+							</p>
+						</div>
+					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
 {% endif %}
 
 {% comment %} --- PhD Students --- {% endcomment %}
-{% if phd_members.size > 0 %}
-  <h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-    PhD Students
-  </h3>
-  <div class="row">
-    {% for member in phd_members reversed %}
-      <div class="col-lg-4 memberbox">
-        <div class="media">
-          <a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
-            <img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
-          </a>
-          <div class="media-body">
-            <div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-              {{ member.position }}
-            </p>
-          </div>
-        </div>
-        <div class="bigspacer"></div>
-        <div class="bigspacer"></div>
-      </div>
-    {% endfor %}
-  </div>
+{% assign active_phd = phd_members | where_exp: "item", "item.alumni != true" %}
+{% if active_phd.size > 0 %}
+	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		PhD Students
+	</h3>
+	<div class="row">
+		{% for member in phd_members reversed %}
+			{% if member.alumni != true %}
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
+						</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
+							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
+								{{ member.position }}
+							</p>
+						</div>
+					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
 {% endif %}
 
 {% comment %} --- Master's Students --- {% endcomment %}
-{% if ms_members.size > 0 %}
-  <h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-    Master's Students
-  </h3>
-  <div class="row">
-    {% for member in ms_members reversed %}
-      <div class="col-lg-4 memberbox">
-        <div class="media">
-          <a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
-            <img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
-          </a>
-          <div class="media-body">
-            <div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-              {{ member.position }}
-            </p>
-          </div>
-        </div>
-        <div class="bigspacer"></div>
-        <div class="bigspacer"></div>
-      </div>
-    {% endfor %}
-  </div>
+{% assign active_ms = ms_members | where_exp: "item", "item.alumni != true" %}
+{% if active_ms.size > 0 %}
+	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		Master's Students
+	</h3>
+	<div class="row">
+		{% for member in ms_members reversed %}
+			{% if member.alumni != true %}
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
+						</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
+							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
+								{{ member.position }}
+							</p>
+						</div>
+					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
 {% endif %}
 
 {% comment %} --- Undergraduate Researchers --- {% endcomment %}
-{% if undergrad_members.size > 0 %}
-  <h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-    Undergraduate Researchers
-  </h3>
-  <div class="row">
-    {% for member in undergrad_members reversed %}
-      <div class="col-lg-4 memberbox">
-        <div class="media">
-          <a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
-            <img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
-          </a>
-          <div class="media-body">
-            <div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-            <p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-              {{ member.position }}
-            </p>
-          </div>
-        </div>
-        <div class="bigspacer"></div>
-        <div class="bigspacer"></div>
-      </div>
-    {% endfor %}
-  </div>
+{% assign active_undergrad = undergrad_members | where_exp: "item", "item.alumni != true" %}
+{% if active_undergrad.size > 0 %}
+	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		Undergraduate Researchers
+	</h3>
+	<div class="row">
+		{% for member in undergrad_members reversed %}
+			{% if member.alumni != true %}
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
+						</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
+							<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
+								{{ member.position }}
+							</p>
+						</div>
+					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
 {% endif %}
+
+<!-- <div class="row">
+	<div class="col-lg-12">
+		<div class="title">
+			Past members
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+{% for member in site.categories.team reversed %}
+	{% if member.alumni == true %}
+    {% cycle 'add rows 2': '<div class="row">', '', '' %}
+		<div class="col-lg-4 memberbox">
+			<div class="media">
+ 				<!--
+ 				<a class="pull-left" href="{{ member.url }}">
+    				<img width=160 class="media-object" src="{{ member.image }}">
+ 				</a>
+ 				-->
+			 	<!-- <div class="media-body">
+    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+ 				</div>
+			</div>
+			<div class="bigspacer"></div>
+        </div>
+    {% cycle 'close rows 2': '', '', '</div>' %}
+    {% endif %}
+{% endfor %}
+{% cycle 'close rows 2': '', '</div>', '</div>' %}  -->
