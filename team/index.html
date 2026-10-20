@@ -17,23 +17,47 @@ categories:
 
 {% for member in site.categories.team reversed %}
 	{% if member.alumni != true %}
-    {% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-lg-4 memberbox">
-			<div class="media">
-  				<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
-    				<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
-  				</a>
- 			 	<div class="media-body">
-    				<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
-    				<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
-					    {{ member.position }}
-					</p>
-  				</div>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="bigspacer"></div>
-        </div>
-    {% cycle 'close rows': '', '', '</div>' %}
+		{% assign positions = "Principal Investigator,PhD Student,Master's Student,Undergraduate Researcher" | split: "," %}
+		
+		{% for pos in positions %}
+		  {% assign group = site.categories.team | where: "position", pos %}
+		  
+		  {% comment %} Check if there are active members in this position {% endcomment %}
+		  {% assign active_members = group | where_exp: "item", "item.alumni != true" %}
+		  
+		  {% if active_members.size > 0 %}
+		    <h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		      {% if pos == "Principal Investigator" %}Principal Investigator{% endif %}
+		      {% if pos == "PhD Student" %}PhD Students{% endif %}
+		      {% if pos == "Master's Students" %}Master's Students{% endif %}
+		      {% if pos == "Undergraduate Researchers" %}Undergraduate Researchers{% endif %}
+		    </h3>
+		
+		    {% for member in group reversed %}
+		      {% if member.alumni != true %}
+		        {% cycle 'add rows': '<div class="row">', '', '' %}
+		          <div class="col-lg-4 memberbox">
+		            <div class="media">
+		              <a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+		                <img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
+		              </a>
+		              <div class="media-body">
+		                <div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
+		                <p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 0 !important;">
+		                  {{ member.position }}
+		                </p>
+		              </div>
+		            </div>
+		            <div class="bigspacer"></div>
+		            <div class="bigspacer"></div>
+		          </div>
+		        {% cycle 'close rows': '', '', '</div>' %}
+      {% endif %}
+    {% endfor %}
+    {% cycle 'close rows': '', '</div>', '</div>' %}
+
+  {% endif %}
+{% endfor %}
     {% endif %}
 {% endfor %}
 {% cycle 'close rows': '', '</div>', '</div>' %}
