@@ -21,32 +21,26 @@ categories:
 {% assign ms_members = site.categories.team | where: "position", "Master's Student" %}
 {% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Researcher" %}
 
+{% comment %} --- Principal Investigator --- {% endcomment %}
 {% assign active_pi = pi_members | where_exp: "item", "item.alumni != true" %}
 {% if active_pi.size > 0 %}
-	<div class="row" style="margin-top: 10px; margin-bottom: 20px;">
-		<div class="col-lg-12">
-			<div class="title" style="border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important;">
-				Faculty
-			</div>
-		</div>
-	</div>
+	<h4 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 20px !important; margin-bottom: 25px !important;">
+		Faculty
+	</h4>
 	<div class="row">
 		{% for member in pi_members reversed %}
 			{% if member.alumni != true %}
-				<div class="col-lg-4 col-md-6 memberbox" style="margin-bottom: 35px;">
-					<div class="pad-left">
-						<a href="{{ site.baseurl }}{{ member.url }}" style="display: block; margin-bottom: 15px;">
-							<img width="160" src="{{ site.baseurl }}{{ member.image }}" alt="{{ member.title }}" style="border-radius: 4px; display: block;">
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
 						</a>
-						<div class="head mb-1">
-							<a href="{{ site.baseurl }}{{ member.url }}" class="off" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; font-size: 1.25rem !important; color: #13294B !important;">
-								{{ member.title }}
-							</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
 						</div>
-						<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 2px !important; margin-bottom: 0 !important;">
-							{{ member.position }}
-						</p>
 					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
 				</div>
 			{% endif %}
 		{% endfor %}
@@ -56,30 +50,23 @@ categories:
 {% comment %} --- PhD Students --- {% endcomment %}
 {% assign active_phd = phd_members | where_exp: "item", "item.alumni != true" %}
 {% if active_phd.size > 0 %}
-	<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
-		<div class="col-lg-12">
-			<div class="title" style="border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important;">
-				PhD Students
-			</div>
-		</div>
-	</div>
+	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		PhD Students
+	</h3>
 	<div class="row">
 		{% for member in phd_members reversed %}
 			{% if member.alumni != true %}
-				<div class="col-lg-4 col-md-6 memberbox" style="margin-bottom: 35px;">
-					<div class="pad-left">
-						<a href="{{ site.baseurl }}{{ member.url }}" style="display: block; margin-bottom: 15px;">
-							<img width="160" src="{{ site.baseurl }}{{ member.image }}" alt="{{ member.title }}" style="border-radius: 4px; display: block;">
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
 						</a>
-						<div class="head mb-1">
-							<a href="{{ site.baseurl }}{{ member.url }}" class="off" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; font-size: 1.25rem !important; color: #13294B !important;">
-								{{ member.title }}
-							</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
 						</div>
-						<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 2px !important; margin-bottom: 0 !important;">
-							{{ member.position }}
-						</p>
 					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
 				</div>
 			{% endif %}
 		{% endfor %}
@@ -89,30 +76,23 @@ categories:
 {% comment %} --- Master's Students --- {% endcomment %}
 {% assign active_ms = ms_members | where_exp: "item", "item.alumni != true" %}
 {% if active_ms.size > 0 %}
-	<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
-		<div class="col-lg-12">
-			<div class="title" style="border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important;">
-				Master's Students
-			</div>
-		</div>
-	</div>
+	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		Master's Student Researchers
+	</h3>
 	<div class="row">
 		{% for member in ms_members reversed %}
 			{% if member.alumni != true %}
-				<div class="col-lg-4 col-md-6 memberbox" style="margin-bottom: 35px;">
-					<div class="pad-left">
-						<a href="{{ site.baseurl }}{{ member.url }}" style="display: block; margin-bottom: 15px;">
-							<img width="160" src="{{ site.baseurl }}{{ member.image }}" alt="{{ member.title }}" style="border-radius: 4px; display: block;">
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
 						</a>
-						<div class="head mb-1">
-							<a href="{{ site.baseurl }}{{ member.url }}" class="off" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; font-size: 1.25rem !important; color: #13294B !important;">
-								{{ member.title }}
-							</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
 						</div>
-						<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 2px !important; margin-bottom: 0 !important;">
-							{{ member.position }}
-						</p>
 					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
 				</div>
 			{% endif %}
 		{% endfor %}
@@ -122,30 +102,23 @@ categories:
 {% comment %} --- Undergraduate Researchers --- {% endcomment %}
 {% assign active_undergrad = undergrad_members | where_exp: "item", "item.alumni != true" %}
 {% if active_undergrad.size > 0 %}
-	<div class="row" style="margin-top: 20px; margin-bottom: 20px;">
-		<div class="col-lg-12">
-			<div class="title" style="border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important;">
-				Undergraduate Researchers
-			</div>
-		</div>
-	</div>
+	<h4 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
+		Undergraduate Student Researchers
+	</h4>
 	<div class="row">
 		{% for member in undergrad_members reversed %}
 			{% if member.alumni != true %}
-				<div class="col-lg-4 col-md-6 memberbox" style="margin-bottom: 35px;">
-					<div class="pad-left">
-						<a href="{{ site.baseurl }}{{ member.url }}" style="display: block; margin-bottom: 15px;">
-							<img width="160" src="{{ site.baseurl }}{{ member.image }}" alt="{{ member.title }}" style="border-radius: 4px; display: block;">
+				<div class="col-lg-4 memberbox">
+					<div class="media">
+						<a class="float-left" href="{{ site.baseurl }}{{ member.url }}">
+							<img width=160 class="mr-3" src="{{ site.baseurl }}{{ member.image }}">
 						</a>
-						<div class="head mb-1">
-							<a href="{{ site.baseurl }}{{ member.url }}" class="off" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; font-size: 1.25rem !important; color: #13294B !important;">
-								{{ member.title }}
-							</a>
+						<div class="media-body">
+							<div class="head mb-1"><a href="{{ site.baseurl }}{{ member.url }}" class="off">{{ member.title }}</a></div>
 						</div>
-						<p class="position" style="font-family: 'Oswald', sans-serif !important; font-style: italic !important; color: #222222 !important; font-weight: 400 !important; font-size: 1rem !important; margin-top: 2px !important; margin-bottom: 0 !important;">
-							{{ member.position }}
-						</p>
 					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
 				</div>
 			{% endif %}
 		{% endfor %}
