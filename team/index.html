@@ -17,8 +17,8 @@ categories:
 
 {% assign pi_members = site.categories.team | where: "position", "Principal Investigator" %}
 {% assign phd_members = site.categories.team | where: "position", "PhD Student" %}
-{% assign ms_members = site.categories.team | where: "position", "Master's Students" %}
-{% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Students" %}
+{% assign ms_members = site.categories.team | where: "position", "Master's Student Researcher" %}
+{% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Student Researcher" %}
 
 {% assign active_pi = pi_members | where_exp: "item", "item.alumni != true" %}
 {% if active_pi.size > 0 %}
@@ -73,7 +73,7 @@ categories:
 {% assign active_ms = ms_members | where_exp: "item", "item.alumni != true" %}
 {% if active_ms.size > 0 %}
 	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-		Master's Students
+		Master's Student Researchers
 	</h3>
 	<div class="row">
 		{% for member in ms_members reversed %}
@@ -95,11 +95,10 @@ categories:
 	</div>
 {% endif %}
 
-{% comment %} --- Undergraduate Students --- {% endcomment %}
 {% assign active_undergrad = undergrad_members | where_exp: "item", "item.alumni != true" %}
 {% if active_undergrad.size > 0 %}
 	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-		Undergraduate Researchers
+		Undergraduate Student Researchers
 	</h3>
 	<div class="row">
 		{% for member in undergrad_members reversed %}
