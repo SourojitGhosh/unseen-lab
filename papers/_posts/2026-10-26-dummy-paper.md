@@ -1,13 +1,13 @@
 ---
 layout: paper
 title: Dummy Title
-image: 
+image:
 authors: sourojit-ghosh
 year: 2026
 ref: <b>Ghosh, Sourojit</b> and others
 journal: ""
-pdf: 
-doi: 
+pdf:
+doi:
 categories:
   - papers
 ---
