@@ -118,11 +118,17 @@ layout: default
 
 		{% if papersq == true %}
 		<div class="bigspacer"></div>
-		<div class="head">Papers</div>
+		<div class="bigtitle" style="font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; color: #13294B !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-bottom: 20px !important;">
+			<strong>Papers</strong>
+		</div>
 		<div class="spacer"></div>
 		{% for paper in site.categories.papers %}
 		{% if paper.authors contains member.handle %}
-		<p><a href="{{ site.baseurl }}{{ paper.url }}" class="off">{{ paper.title }}</a></p>
+		<p>
+			<a href="{{ site.baseurl }}{{ paper.url }}" style="color: #13294B !important; text-decoration: underline !important; text-decoration-color: #4B9CD3 !important; text-underline-offset: 3px !important;">
+				{{ paper.title }}
+			</a>
+		</p>
 		{% endif %}
 		{% endfor %}
 		{% endif %}
