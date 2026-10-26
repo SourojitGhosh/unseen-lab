@@ -2,9 +2,9 @@
 layout: paper
 title: Dummy Title
 image:
-authors: sourojit-ghosh
+authors: 
 year: 2026
-ref: <b>Ghosh, Sourojit</b> and others
+ref: 
 journal: ""
 pdf:
 doi:
