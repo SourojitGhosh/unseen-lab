@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Sourojit Ghosh
+handle: sourojit-ghosh
 position: Principal Investigator
 scholar: fNxrh48AAAAJ
 image: /images/team/sourojit_ghosh.jpg
