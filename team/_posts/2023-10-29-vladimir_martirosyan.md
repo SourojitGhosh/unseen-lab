@@ -3,7 +3,7 @@ layout: member
 title: Vladimir Martirosyan
 position: Doctoral Student Researcher
 scholar: 5YKwsWUAAAAJ&hl=en&oi=ao
-image: /images/team/vlad_matirosyan.JPG
+image: /images/team/vlad-matirosyan.jpg
 website: https://vladimir.martirosyan.me/
 email: martiros@unc.edu
 ---
