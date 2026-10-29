@@ -17,7 +17,7 @@ categories:
 
 {% comment %} Filter members into distinct position groups {% endcomment %}
 {% assign pi_members = site.categories.team | where: "position", "Principal Investigator" %}
-{% assign phd_members = site.categories.team | where: "position", "PhD Student" %}
+{% assign phd_members = site.categories.team | where: "position", "Doctoral Student Researcher" %}
 {% assign ms_members = site.categories.team | where: "position", "Master's Student" %}
 {% assign undergrad_members = site.categories.team | where: "position", "Undergraduate Student Researcher" %}
 
@@ -49,7 +49,7 @@ categories:
 {% assign active_phd = phd_members | where_exp: "item", "item.alumni != true" %}
 {% if active_phd.size > 0 %}
 	<h3 style="font-family: 'Oswald', sans-serif !important; color: #13294B !important; font-weight: 700 !important; border-bottom: 2px solid #4B9CD3 !important; padding-bottom: 5px !important; margin-top: 35px !important; margin-bottom: 25px !important;">
-		PhD Students
+		Doctoral Students
 	</h3>
 	<div class="row">
 		{% for member in phd_members reversed %}
