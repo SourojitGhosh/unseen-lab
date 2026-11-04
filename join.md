@@ -48,7 +48,7 @@ For the Fall 2027 cycle, I am most interested in students with previous research
 <h1 id = "active" style="color: #4B9CD3 !important; -webkit-text-fill-color: #4B9CD3 !important; font-family: 'Oswald', sans-serif !important; font-weight: 700 !important; display: inline-block;">Currently Active Postings</h1>
 
 <p>
-Nothing right now! Please continue to watch this space for future postings! 
+I am recruiting 3-4 students, at the undergraduate or master's levels, to participate in various qualitative research projects around everyday users' reactions to AI-generated content or interactions with AI chatbots. Ideal candidates will have experience with, or a strong appetite for, designing, conducting, and analyzing interviews. Students will be expected to commit about 5 hours a week, on average, outside of group meetings, across both Spring 2027 and Fall 2027 semesters. If you are interested, please send me an email with the subject line "Responding to Active Research Recruitment Call: /your name/" and include your CV, as well as why you are interested. <b>Applications close on Friday, November 20th.</b>   
 </p>
 
 
